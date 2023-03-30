@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.gif {
+    width: 200svh;
+}
+
+.container {
+    display: flex;
+  }
+
+.about {
+        margin-right: 60svh;
+        margin-bottom: 25svh;
+        z-index: 1;
+}
+
+.stacks {
+    position: absolute;
+    margin-left: 35svh;
+    margin-top: 30svh;
+    z-index: 2;
+}
+
+.misc {
+    position: absolute;
+    margin-left: 60svh;
+    margin-top: 5svh;
+    z-index: 1;
+}
+
+.misc img {
+    width: 100%;
+    height: 100%;
+}
+
+.certify {
+    position: absolute;
+    margin-left: 5svh;
+    margin-top: 50svh;
+    z-index: 3;
+}
+
+.findme {
+    position: absolute;
+    margin-left: 50svh;
+    margin-top: 60svh;
+    z-index: 3;
+}
+  

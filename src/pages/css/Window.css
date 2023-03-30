@@ -1,0 +1,125 @@
+h2, h4, p {
+    color: #f75892;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h4 {
+  color: #f75892;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.window {
+    width: 400px;
+    max-width: 600px;
+    height: 500px;
+    background-color: #fdfdfd;
+    border: 1px solid #f503cd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(231, 149, 162, 0.5);
+  }
+
+  .window2 {
+    width: 400px;
+    max-width: 600px;
+    height: 220px;
+    background-color: #fdfdfd;
+    border: 1px solid #f503cd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(231, 149, 162, 0.5);
+  }
+
+  .window3 {
+    width: 310px;
+    max-width: 600px;
+    height: 320px;
+    background-color: #fdfdfd;
+    border: 1px solid #f503cd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(231, 149, 162, 0.5);
+  }
+
+  .window4 {
+    width: 310px;
+    max-width: 600px;
+    height: 320px;
+    background-color: #fdfdfd;
+    border: 1px solid #f503cd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(231, 149, 162, 0.5);
+  }
+
+  .window5 {
+    width: 350px;
+    max-width: 600px;
+    height: 230px;
+    background-color: #fdfdfd;
+    border: 1px solid #f503cd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(231, 149, 162, 0.5);
+  }
+  
+  .title-bar {
+    border-radius: 2px;
+    height: 30px;
+    background-color: #c6c3fe;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #fd6cbc;
+    border-radius: 5px 5px 0px 0px;
+
+  }
+  
+  .title-bar-text {
+    margin-left: 10px;
+  }
+  
+  .title-bar-controls {
+    display: flex;
+  }
+  
+  button {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    padding: 0;
+    position: relative;
+  }
+  
+  .btn-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 33px;
+    height: 15px;
+    border-radius: 0px;
+    color: #fd6cbc;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1;
+  }
+  
+  button:hover {
+    background-color: #ffeeee;
+
+  }
+  
+  .btn-head {
+    background-color: #fdfdfd;
+    border: 1.7px solid #fd6cbc;
+    border-radius: 0;
+    position: relative;
+  }
+  
+  .content {
+      padding: 10px;
+  }
+
+
