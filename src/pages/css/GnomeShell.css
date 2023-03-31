@@ -1,0 +1,42 @@
+.gnome-shell {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(198, 195, 254, 0.5);
+    color: #ffffff;
+    height: 30px;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .left-panel {
+    flex: 1;
+  }
+  
+  .center-panel {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .right-panel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  
+  .button {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .clock {
+    font-size: 14px;
+  }
+  

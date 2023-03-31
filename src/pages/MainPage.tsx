@@ -6,12 +6,16 @@ import WindowMisc from '../components/WindowMisc';
 import beT from '../assets/beT.png'
 import WindowCertify from '../components/WindowCertify';
 import WindowFindMe from '../components/WindowFindMe';
+import Menu from '../components/Menu';
+import GnomeShell from '../components/GnomeShell';
+
 
 class MainPage extends React.Component {
 
        render() {
          return (
            <div className={ styles.container }>
+            <GnomeShell />
             <div className={ styles.about }>
              <WindowAbout title="About Laura">
               <h2>Garota de programa WEB FULLSTACK</h2>
@@ -32,9 +36,9 @@ class MainPage extends React.Component {
             <div className={ styles.certify}>
             <WindowCertify title="Pretty formal, huh?"  >
               <h2>Certifies</h2>
-              <h4>Analise e Desenvolvimento de Sistemas - Unicesumar</h4>
-              <h4>Desenvolvimento Web Fullstack - Trybe</h4>
-              <h4>Designing RESTful APIs - Linkedin</h4>
+              <h4>blabla bla</h4>
+              <h4>blablalba</h4>
+              <h4>blablalbalbalbalba</h4>
             </WindowCertify>
             </div>
             <div className={ styles.findme}>
@@ -43,6 +47,15 @@ class MainPage extends React.Component {
               <p>Linkedin</p>
               <p>GitHub</p>
             </WindowFindMe>
+            </div>
+            <div>
+            <Menu
+             items={[
+                { name: 'Projetos', type: 'folder', path: '/react' },
+                { name: 'Contato', type: 'contact', path: '/nodejs' },
+                { name: 'Baixar CV', type: 'file', path: '/typescript' },
+              ]}
+            />
             </div>
            </div>
          );

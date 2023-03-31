@@ -1,8 +1,11 @@
+
+
 h2, h4, p {
     color: #f75892;
     display: flex;
     align-content: center;
     justify-content: center;
+    font-family: 'Libre Baskerville', serif;
 }
 
 h4 {
@@ -77,6 +80,8 @@ h4 {
   
   .title-bar-text {
     margin-left: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
   }
   
   .title-bar-controls {

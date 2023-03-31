@@ -17,8 +17,8 @@ body {
   }
 
 .about {
-        margin-right: 60svh;
-        margin-bottom: 25svh;
+        margin-right: 70svh;
+        margin-bottom: 30svh;
         z-index: 1;
 }
 
@@ -54,4 +54,3 @@ body {
     margin-top: 60svh;
     z-index: 3;
 }
-  
