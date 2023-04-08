@@ -8,11 +8,21 @@ h2, h4, p {
     font-family: 'Libre Baskerville', serif;
 }
 
+p {
+  font-size: 0.9em;
+}
+
 h4 {
   color: #f75892;
   display: flex;
   align-content: center;
   justify-content: flex-start;
+}
+
+.closed {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.9s ease-in-out;
 }
 
 .window {
