@@ -3,10 +3,11 @@ import styles from '../pages/css/Menu.module.css'
 import folder from '../assets/PinkFolder.png'
 import archive from '../assets/TextEdit.png'
 import contact from '../assets/Mail.png'
+import { Link } from 'react-router-dom';
 
 const MenuItem: React.FC<MenuItemProps> = ({ name, type, path }) => {
 
-    let itemClass = '';
+  let itemClass = '';
   let icon = null;
 
   if (type === 'folder') {
@@ -21,13 +22,21 @@ const MenuItem: React.FC<MenuItemProps> = ({ name, type, path }) => {
   }
 
   return (
-    <div className={styles.item}>
-      <div className={ itemClass }>
-        <img src={ icon ? icon : undefined } alt={name} />
+  <div className={styles.item}>
+    {path ? (
+      <Link to={path} className={itemClass}>
+        <img src={icon ? icon : undefined} alt={name} />
+        {name}
+      </Link>
+    ) : (
+      <div className={itemClass}>
+        <img src={icon ? icon : undefined} alt={name} />
         {name}
       </div>
-    </div>
-  );
+    )}
+  </div>
+);
+
 };
-  
-  export default MenuItem;
+
+export default MenuItem;

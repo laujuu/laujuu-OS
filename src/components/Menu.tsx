@@ -1,7 +1,6 @@
 import { MenuProps } from "../interfaces/MenuProps";
 import MenuItem from "./MenuItem";
 import '../pages/css/Menu.module.css'
-
   
 const Menu: React.FC<MenuProps> = ({ items }) => {
     return (

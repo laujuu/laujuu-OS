@@ -12,7 +12,6 @@ import GnomeShell from '../components/GnomeShell';
 
 
 class MainPage extends React.Component {
-
        render() {
          return (
            <div className={ styles.container }>
@@ -58,9 +57,9 @@ class MainPage extends React.Component {
             <div>
             <Menu
              items={[
-                { name: 'Projetos', type: 'folder', path: '/react' },
-                { name: 'Contato', type: 'contact', path: '/nodejs' },
-                { name: 'Baixar CV', type: 'file', path: '/typescript' },
+                { name: 'Projetos', type: 'folder', path: '/projetos' },
+                { name: 'Contato', type: 'contact', path: '/contato' },
+                { name: 'Baixar CV', type: 'file', path: '/baixar_cv' },
               ]}
             />
             </div>
